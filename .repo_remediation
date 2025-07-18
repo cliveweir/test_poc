@@ -13,4 +13,4 @@ services:
     files:
       - charts/resource-b/templates/deployment.yaml
       - charts/resource-b/templates/service.yaml
-    branch: testing
+    branch: main
