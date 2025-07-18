@@ -1,0 +1,21 @@
+# Example .repo_remediation file
+version: v1
+# Mapping of resource to Helm charts and values files
+services:
+  account:regionX:cluster:namespace:servicename:container1:
+    files:
+      - charts/resource-a/templates/deployment.yaml
+      - charts/resource-a/templates/service.yaml
+      - charts/resource-a/values.yaml
+    branch: main
+
+  account:regionX:cluster:namespace:servicename:container2:
+    files:
+      - charts/resource-b/templates/deployment.yaml
+      - charts/resource-b/templates/service.yaml
+    branch: testing
+
+  account:regionY:cluster:namespace:servicename:container:
+    files:
+      - charts/resource-c/values.yaml
+    branch: production
