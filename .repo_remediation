@@ -14,8 +14,3 @@ services:
       - charts/resource-b/templates/deployment.yaml
       - charts/resource-b/templates/service.yaml
     branch: testing
-
-  account:regionY:cluster:namespace:servicename:container:
-    files:
-      - charts/resource-c/values.yaml
-    branch: production
