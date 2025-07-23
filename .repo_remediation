@@ -18,4 +18,4 @@ services:
   account:regionY:cluster:namespace:servicename:container:
     files:
       - charts/resource-c/values.yaml
-    branch: feature-branch1
+    branch: feature
