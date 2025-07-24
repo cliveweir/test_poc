@@ -1,5 +1,5 @@
 # test
-version: v12
+version: v1
 services:
   foo:
     files: []
