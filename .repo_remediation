@@ -1,0 +1,12 @@
+# test
+version: v1
+services:
+  foo:
+    files: []
+    branch: main
+  bar:
+    files:
+      - a
+      - b
+      - c
+    branch: feature
