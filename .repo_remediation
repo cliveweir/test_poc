@@ -1,4 +1,4 @@
-version: v12
+version: v1
 services:
   a:
     files: [a,b,c]
