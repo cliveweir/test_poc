@@ -2,7 +2,7 @@ version: v1
 services:
   foo:bar:
     files:
-      - a
-      - b
-      - c
+      - charts/a.yaml
+      - b.yaml
+      - c.yaml
     branch: main
