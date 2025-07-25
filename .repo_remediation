@@ -1,0 +1,5 @@
+version: v1
+services:
+  a:
+    files: [a,b,c]
+    branch: main
