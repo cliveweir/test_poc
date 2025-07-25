@@ -1,8 +1,0 @@
-version: v1
-services:
-  foo:bar:
-    files:
-      - charts/a.yaml
-      - b.yaml
-      - c.yaml
-    branch: main
