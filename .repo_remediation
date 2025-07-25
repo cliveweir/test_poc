@@ -1,15 +1,15 @@
 version: v1
-  services:
-    user-service:
-      files:
-        - src/user-service/main.py
-        - src/user-service/models.py
-        - src/user-service/controllers/user_controller.py
-        - tests/user-service/test_user_service.py
-      branch: main
-    payment-gateway:
-      files:
-        - src/payment/gateway.py
-        - src/payment/processors/stripe_processor.py
-        - src/payment/processors/paypal_processor.py
-      branch: feature/payment-v2
+services:
+  user-service:
+    files:
+      - src/user-service/main.py
+      - src/user-service/models.py
+      - src/user-service/controllers/user_controller.py
+      - tests/user-service/test_user_service.py
+    branch: main
+  payment-gateway:
+    files:
+      - src/payment/gateway.py
+      - src/payment/processors/stripe_processor.py
+      - src/payment/processors/paypal_processor.py
+    branch: feature/payment-v2
